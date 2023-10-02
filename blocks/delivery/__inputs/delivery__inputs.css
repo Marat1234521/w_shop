@@ -1,0 +1,13 @@
+.delivery__inputs {
+    margin: 0;
+    max-width: 700px;
+    width: 100%;
+    column-gap: 24px;
+    row-gap: 3.5px;
+}
+
+@media screen and (max-width: 1023px) {
+    .delivery__inputs {
+        margin: 0 auto;
+    }
+}

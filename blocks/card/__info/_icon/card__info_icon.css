@@ -1,0 +1,13 @@
+.card__info_icon {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 690px) {
+    .card__info_icon {
+        display: none;
+    }
+}

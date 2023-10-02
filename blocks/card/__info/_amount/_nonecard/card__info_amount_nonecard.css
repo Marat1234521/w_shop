@@ -1,0 +1,15 @@
+.card__info_amount_nonecard {
+    grid-column: 9 / 10;
+}
+
+@media screen and (max-width: 690px) {
+    .card__info_amount_nonecard {
+        min-width: 56px;
+        margin: 0;
+        margin-top: 12px;
+        grid-column: 1 / 5;
+        grid-row: 6 / 7;
+        flex-direction: row-reverse;
+        /* justify-self: end; */
+    }
+}

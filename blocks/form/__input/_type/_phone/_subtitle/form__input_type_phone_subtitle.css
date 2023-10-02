@@ -1,0 +1,12 @@
+.form__input_type_phone_subtitle {
+    color: crimson;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+@media screen and (max-width: 640px) {
+    .form__input_type_phone_subtitle {
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+    }
+}

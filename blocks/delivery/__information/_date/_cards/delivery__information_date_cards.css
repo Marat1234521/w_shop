@@ -1,0 +1,4 @@
+.delivery__information_date_cards {
+    display: flex;
+    flex-direction: row;
+}

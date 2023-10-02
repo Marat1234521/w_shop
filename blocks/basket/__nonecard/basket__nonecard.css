@@ -1,0 +1,16 @@
+.basket__nonecard {
+    position: relative;
+    margin: 12px 0 20px 0;
+    display: grid;
+    grid-template-columns: 0 118px auto auto auto auto 1fr auto 124px 110px;
+    grid-template-rows: auto auto auto;
+    color: rgba(151, 151, 175, 1);
+}
+
+@media screen and (max-width: 690px) {
+    .basket__nonecard {
+        margin: 12px 0 16px 0;
+        grid-template-columns: 80px auto auto 1fr;
+        grid-template-rows: auto minmax(1fr, 40px) auto 22px auto auto;
+    }
+}

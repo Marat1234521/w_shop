@@ -1,0 +1,12 @@
+.form__input_type_tin_subtitle {
+    color: crimson;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+@media screen and (max-width: 640px) {
+    .form__input_type_tin_subtitle {
+        grid-column: 1 / 2;
+        grid-row: 9 / 10;
+    }
+}

@@ -1,0 +1,16 @@
+.tabbar {
+    margin: 0;
+    width: 100vw;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 1);
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .tabbar {
+        display: flex;
+    }
+}

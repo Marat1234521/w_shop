@@ -1,0 +1,26 @@
+.header__button {
+    position: absolute;
+    right: 0;
+    border: none;
+    background-position-x: left;
+    background-position-y: center;
+    background-image: url(../../../images/Vector-search.svg);
+    width: 41px;
+    height: 48px;
+}
+
+.header__button:hover {
+    background-image: url(../../../images/Vector-search_active.svg);
+    transition-property: background-image;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+    .header__button {
+        position: relative;
+        background-position: center;
+        background-image: url(../../../images/Vector-search_active.svg);
+        width: 28px;
+        height: 28px;
+    }
+}

@@ -1,0 +1,7 @@
+.delivery__information_raiting {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

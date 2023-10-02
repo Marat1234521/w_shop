@@ -1,0 +1,12 @@
+.header__menu {
+    display: grid;
+    grid-template-columns: 56px 56px;
+    grid-template-rows: 56px;
+    column-gap: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .header__menu {
+        display: none;
+    }
+}

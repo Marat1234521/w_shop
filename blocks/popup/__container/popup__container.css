@@ -1,0 +1,13 @@
+.popup__container {
+    position: relative;
+    padding: 16px 16px 24px 16px;
+    max-width: 368px;
+    width: 100%;
+    min-height: 368px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 20px repeat(2, 1fr) 22px;
+    grid-template-rows: repeat(5, auto) 1fr auto;
+    row-gap: 16px;
+    column-gap: 8px;
+}

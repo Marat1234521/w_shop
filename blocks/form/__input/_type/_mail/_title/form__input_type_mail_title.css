@@ -1,0 +1,4 @@
+.form__input_type_mail_title {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}

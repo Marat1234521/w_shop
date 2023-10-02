@@ -1,0 +1,11 @@
+.form__input_type_surname {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+@media screen and (max-width: 640px) {
+    .form__input_type_surname {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+}

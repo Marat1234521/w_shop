@@ -1,0 +1,12 @@
+.delivery__result_location_card {
+    margin-top: 12px;
+    padding: 8px 8px 12px 8px;
+    border-radius: 8px;
+    background-color: rgba(246, 246, 250, 1);
+}
+
+@media screen and (max-width: 480px) {
+    .delivery__result_location_card {
+        background-color: rgba(246, 246, 250, 1);
+    }
+}

@@ -1,0 +1,20 @@
+.card__info_size_value {
+    margin-left: 5px;
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+}
+
+@media screen and (max-width: 690px) {
+    .card__info_size_value {
+        position: absolute;
+        margin: 0;
+        left: 3px;
+        bottom: 3px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 5;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 6px;
+        width: 22px;
+        height: 22px;
+    }
+}

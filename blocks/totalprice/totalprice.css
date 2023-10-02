@@ -1,0 +1,16 @@
+.totalprice {
+    grid-column: 10 / 11;
+    grid-row: 1 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 690px) {
+    .totalprice {
+        flex-direction: row;
+        align-items: center;
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+}

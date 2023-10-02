@@ -1,0 +1,5 @@
+.delivery__result_price_delivery {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    text-align: right;
+}

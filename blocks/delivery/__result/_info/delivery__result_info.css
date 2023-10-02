@@ -1,0 +1,6 @@
+.delivery__result_info {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 5px;
+}

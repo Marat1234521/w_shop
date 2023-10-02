@@ -1,0 +1,11 @@
+.form__input_type_phone_title {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+@media screen and (max-width: 640px) {
+    .form__input_type_phone_title {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+}

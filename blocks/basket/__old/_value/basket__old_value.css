@@ -1,0 +1,5 @@
+.basket__old_value {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

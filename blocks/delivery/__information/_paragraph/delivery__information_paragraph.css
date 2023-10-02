@@ -1,0 +1,10 @@
+.delivery__information_paragraph {
+    margin: 0;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'SegoeUI';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}

@@ -1,0 +1,4 @@
+.form__input_type_name {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}

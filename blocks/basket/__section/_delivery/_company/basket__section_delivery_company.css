@@ -1,0 +1,11 @@
+.basket__section_delivery_company {
+    margin: 24px 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 480px) {
+    .basket__section_delivery_company {
+        margin: 24px 8px 0 8px;
+    }
+}

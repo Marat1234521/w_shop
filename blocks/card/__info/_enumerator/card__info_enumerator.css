@@ -1,0 +1,17 @@
+.card__info_enumerator {
+    margin-bottom: 8px;
+    width: 100px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 690px) {
+    .card__info_enumerator {
+        width: 80px;
+    }
+}

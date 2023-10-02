@@ -1,0 +1,14 @@
+.delivery__information {
+    display: grid;
+    grid-template-columns: 177px auto;
+    grid-template-rows: auto;
+    gap: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    .delivery__information {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 8px;
+    }
+}

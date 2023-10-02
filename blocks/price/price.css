@@ -1,0 +1,6 @@
+.price {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto min-content;
+    text-align: right;
+}

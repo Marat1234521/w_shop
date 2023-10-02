@@ -1,0 +1,13 @@
+.delivery__information_location_value {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: auto 16px;
+    row-gap: 4px;
+}
+
+@media screen and (max-width: 480px) {
+    .delivery__information_location_value {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+}

@@ -1,0 +1,13 @@
+.delivery__inputs_contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 16px 27px 14px;
+    column-gap: 16px;
+}
+
+@media screen and (max-width: 640px) {
+    .delivery__inputs_contacts {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 16px 27px 14px);
+    }
+}

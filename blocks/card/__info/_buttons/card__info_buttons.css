@@ -1,0 +1,9 @@
+.card__info_buttons {
+    margin-top: 8px;
+    width: 56px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

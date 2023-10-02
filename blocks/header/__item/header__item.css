@@ -1,0 +1,13 @@
+.header__item {
+    display: grid;
+    grid-template-rows: 30px 16px;
+    row-gap: 10px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.header__item:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transition-property: color;
+    transition-duration: 0.5s;
+}

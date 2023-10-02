@@ -1,0 +1,16 @@
+.header__frame {
+    width: 170px;
+    height: 56px;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 16px;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .header__frame {
+        grid-template-columns: 28px 1fr;
+        width: 275px;
+    }
+}

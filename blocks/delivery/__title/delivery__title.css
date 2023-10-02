@@ -1,0 +1,10 @@
+.delivery__title {
+    margin: 0;
+    margin-right: 5px;
+    font-family: 'SegoeUI';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}

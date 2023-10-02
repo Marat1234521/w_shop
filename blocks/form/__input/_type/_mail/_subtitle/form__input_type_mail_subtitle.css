@@ -1,0 +1,5 @@
+.form__input_type_mail_subtitle {
+    color: crimson;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}

@@ -1,0 +1,11 @@
+.card__like {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background-image: url(../../../images/Vector-button_like.svg);
+    background-size: 19px 16px;
+}
+
+.card__like:hover {
+    background-image: url(../../../images/Vector-button_like_hover.svg);
+}

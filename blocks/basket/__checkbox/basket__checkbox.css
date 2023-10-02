@@ -1,0 +1,13 @@
+.basket__checkbox {
+    width: 22px;
+    height: 22px;
+    background-image: url(../../../images/Vector-checkbox-pink.svg);
+}
+
+.basket__checkbox:hover {
+    background-image: url(../../../images/Vector-checkbox-pink_active.svg);
+}
+
+.basket__checkbox:active {
+    background-image: url(../../../images/Vector-checkbox-pink_click.svg);
+}

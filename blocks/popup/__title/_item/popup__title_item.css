@@ -1,0 +1,7 @@
+.popup__title_item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: auto 16px;
+    row-gap: 4px;
+    grid-column: 2 / 4;
+}

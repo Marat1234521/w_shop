@@ -1,0 +1,9 @@
+.basket__actualcard_valuta {
+    margin: 0 0 0 5px;
+}
+
+@media screen and (max-width: 690px) {
+    .basket__actualcard_valuta {
+        margin: 0 16px 0 5px;
+    }
+}

@@ -1,0 +1,9 @@
+.basket__checkbox_rules {
+    margin-top: 3px;
+    width: 13px;
+    height: 13px;
+}
+
+.basket__checkbox_rules:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}

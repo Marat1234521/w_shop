@@ -1,0 +1,13 @@
+.delivery__inputs_name {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 16px 27px 14px;
+}
+
+@media screen and (max-width: 640px) {
+    .delivery__inputs_name {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 16px 27px 14px);
+    }
+}

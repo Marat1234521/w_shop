@@ -1,0 +1,9 @@
+.basket__section_result {
+    margin: 24px 0 4px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .basket__section_result {
+        display: none;
+    }
+}

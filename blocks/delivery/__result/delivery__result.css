@@ -1,0 +1,22 @@
+.delivery__result {
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 429px;
+    width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+@media screen and (max-width: 1023px) {
+    .delivery__result {
+        margin: 0 auto;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .delivery__result {
+        background-color: rgba(246, 246, 250, 1);
+    }
+}

@@ -1,0 +1,10 @@
+.popup__close {
+    margin: 0 0 auto auto;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../../../images/popup-close.svg);
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}

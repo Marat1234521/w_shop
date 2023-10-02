@@ -1,0 +1,10 @@
+.card__info_size_title {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3; 
+}
+
+@media screen and (max-width: 690px) {
+    .card__info_size_title {
+        display: none;
+    }
+}

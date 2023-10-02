@@ -1,0 +1,6 @@
+.delivery__result_amount_title {
+    margin: 0;
+    margin-left: 5px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}

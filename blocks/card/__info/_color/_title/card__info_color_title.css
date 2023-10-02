@@ -1,0 +1,14 @@
+.card__info_color_title {
+    margin: 0;
+    max-width: min-content;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+@media screen and (max-width: 690px) {
+    .card__info_color_title {
+        padding-left: 16px;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+}

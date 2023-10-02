@@ -1,0 +1,11 @@
+.form__input_type_tin_title {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+@media screen and (max-width: 640px) {
+    .form__input_type_tin_title {
+        grid-column: 1 / 2;
+        grid-row: 7 / 8;
+    }
+}

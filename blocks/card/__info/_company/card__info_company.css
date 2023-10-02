@@ -1,0 +1,12 @@
+.card__info_company {
+    color: rgba(151, 151, 175, 1);
+    margin: 0;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+@media screen and (max-width: 690px) {
+    .card__info_company {
+        display: none;
+    }
+}

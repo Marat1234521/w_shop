@@ -1,0 +1,10 @@
+.card__image_none {
+    margin: 0 34px 0 12px;
+    filter: grayscale(1);
+}
+
+@media screen and (max-width: 690px) {
+    .card__image_none {
+        margin: 0;
+    }
+}
