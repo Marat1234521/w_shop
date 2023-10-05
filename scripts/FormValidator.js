@@ -9,7 +9,21 @@ export class FormValidator {
   _showInputError (inputElement, errorMessage) { 
     const errorElement = this._formElement.querySelector(`.${inputElement.id}-error`);
     inputElement.classList.add(this._selectors.inputErrorClass);
-    errorElement.textContent = errorMessage;
+    if (inputElement.id == `name-input` ) {
+      errorElement.textContent = 'Введите Имя';
+    }
+    if (inputElement.id == `surname-input` ) {
+      errorElement.textContent = 'Введите фамилию';
+    }
+    if (inputElement.id == `mail-input` ) {
+      errorElement.textContent = 'Проверьте адрес электронной почты';
+    }
+    else if (inputElement.id == `phone-input` ) {
+      errorElement.textContent = 'Формат: +9 999 999 99 99';
+    }
+    else if (inputElement.id == `tin-input` ) {
+      errorElement.textContent = 'Проверьте ИНН';
+    }
     errorElement.classList.add(this._selectors.errorClass);
   };
   
@@ -31,7 +45,7 @@ export class FormValidator {
   
   _setEventListeners () {
     this._inputList.forEach((inputElement) => {
-      inputElement.addEventListener('input', function () {
+      document.querySelector('.button__order').addEventListener('click', function () {
         this._checkInputValidity(inputElement);
       }.bind(this));
       

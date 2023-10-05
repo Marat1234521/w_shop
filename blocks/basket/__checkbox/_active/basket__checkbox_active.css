@@ -1,0 +1,7 @@
+.basket__checkbox_active {
+    background-image: url(../../../../images/Vector-checkbox-pink_click.svg);
+}
+
+.basket__checkbox_active:hover {
+    background-image: url(../../../../images/Vector-checkbox-pink_click.svg);
+}

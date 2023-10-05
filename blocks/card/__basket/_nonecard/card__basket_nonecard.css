@@ -1,0 +1,12 @@
+.card__basket_nonecard {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(../../../images/Vector-button_basket.svg);
+    background-size: 15px 16px;
+}
+
+.card__basket_nonecard:hover {
+    background-image: url(../../../images/Vector-button_basket_active.svg);
+}

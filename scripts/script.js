@@ -9,7 +9,9 @@ const formInputPhone = document.querySelector('.form__input_type_phone');
 const formInputTin = document.querySelector('.form__input_type_tin');
 const cardPopup = document.querySelector("#card-popup");
 const deliveryPopup = document.querySelector("#delivery-popup");
+const buttonOrderPopup = document.querySelectorAll(".button__order_popup");
 const buttonDelivery = document.querySelectorAll('.button__popup_delivery');
+const buttonCheckbox = document.querySelectorAll('.basket__checkbox');
 const buttonPayment = document.querySelectorAll('.button__popup_payment');
 const elementsCard = document.querySelector('.elements');
 const elementsCardnone = document.querySelector('.elements__nonecard');
@@ -17,7 +19,7 @@ const placeTemplate = document.querySelector("#place-template").content;
 const nonecardTemplate = document.querySelector("#nonecard-template").content;
 const deliveryInputsName = document.querySelector('.delivery__inputs_name');
 const deliveryInputsContacts = document.querySelector('.delivery__inputs_contacts');
-
+const cards = [];
 const initialCards = [
     {
       name: 'Футболка UZcotton мужская',
@@ -32,7 +34,7 @@ const initialCards = [
     },
     {
       name: 'Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe',
-      amount: 2,
+      amount: 200,
       color: '',
       size: '',
       price: 2100047,
@@ -43,7 +45,7 @@ const initialCards = [
     },
     {
       name: 'Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные,Faber-Castell',
-      amount: 2,
+      amount: 15,
       color: '',
       size: '',
       price: 494,
@@ -118,7 +120,7 @@ function createCard(item) {
 }
 
 function createCardNone(item) {
-  const card = new Card(item.name, item.link, item.amount, item.color, item.size, item.price, item.oldprice, item.adress, item.company,  placeTemplate, nonecardTemplate);
+  const card = new Card(item.name, item.link, item.amount, item.color, item.size, item.price, item.oldprice, item.adress, item.company, placeTemplate, nonecardTemplate);
   const cardElement = card.renderInactive();
   return cardElement;
 }
@@ -146,6 +148,8 @@ function openFormDelivery () {
 function openFormPayment () {
   openPopup (cardPopup);
 }
+
+const basketCheckbox = document.getElementsByClassName('basket__checkbox');
 
 const formvalidatorName= new FormValidator(selectors, deliveryInputsName);
 formvalidatorName.enableValidation();

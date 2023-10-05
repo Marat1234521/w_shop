@@ -55,11 +55,11 @@
                             </div>
                             <div class="card__info_amount">
                                 <div class="card__info_enumerator">
-                                    <span class="button button__enumerator minus">-</span>
-                                    <input class="button button__enumerator_text" type="number" value="1">
-                                    <span class="button button__enumerator plus">+</span>
+                                    <button class="button button__enumerator minus">-</button>
+                                    <input class="button button__enumerator_text" type="number">
+                                    <button class="button button__enumerator plus">+</button>
                                 </div>
-                                <p class="text_error">Осталось 2 шт.</p>
+                                <p class="text_error"></p>
                                 <div class="card__info_buttons">
                                     <button class="button card__like"></button>
                                     <button class="button card__basket"></button>
@@ -89,12 +89,12 @@
                     <section class="elements__nonecard"></section>
                     <template id="nonecard-template">
                         <section class="basket__nonecard">
-                            <img src="images/card images/UZcotton.jpg" class="card__image card__image_none" alt="">
-                            <h3 class="card__info_title">Футболка UZcotton мужская</h3>
+                            <img src="" class="card__image card__image_none" alt="">
+                            <h3 class="card__info_title"></h3>
                             <p class="card__info_subtitle card__info_color_title">Цвет:</p>
-                            <p class="card__info_subtitle card__info_color_value">белый</p>
+                            <p class="card__info_subtitle card__info_color_value"></p>
                             <p class="card__info_subtitle card__info_size_title">Размер:</p>
-                            <p class="card__info_subtitle card__info_size_value">56</p>
+                            <p class="card__info_subtitle card__info_size_value"></p>
                             <div class="card__info_amount card__info_amount_nonecard">
                                 <div class="card__info_buttons">
                                     <button class="button card__like"></button>
@@ -157,19 +157,19 @@
                         <span class="form__input-title name-input-title"></span>
                         <input class="form__input form__input_type_name" id="name-input" type="text" placeholder="Укажите имя" required>
                         <span class="form__input-error name-input-error"></span>
-                        <span class="form__input-title surname-input-title"></span>
+                        <span class="form__input_type_surname_title form__input-title surname-input-title"></span>
                         <input class="form__input form__input_type_surname" id="surname-input" type="text" placeholder="Введите фамилию" required>
-                        <span class="form__input-error  surname-input-error"></span>
+                        <span class="form__input-error surname-input-error"></span>
                     </div>
                     <div class="delivery__inputs delivery__inputs_contacts">
                         <span class="form__input_type_mail_title form__input-title mail-input-title"></span>
                         <input class="form__input form__input_type_mail" id="mail-input" type="email" placeholder="Укажите электронную почту" required>
                         <span class="form__input_type_mail_subtitle form__input-error mail-input-error"></span>
                         <span class="form__input_type_phone_title form__input-title phone-input-title"></span>
-                        <input class="form__input form__input_type_phone" id="phone-input" type="tel" placeholder="Укажите номер телефона" maxlength="30" required>
+                        <input class="form__input form__input_type_phone" id="phone-input" type="tel" pattern="[+]\d{1}\s\d{3}\s\d{3}\s\d{2}\s\d{2}" placeholder="Укажите номер телефона" maxlength="30" required>
                         <span class="form__input_type_phone_subtitle form__input-error phone-input-error"></span>
                         <span class="form__input_type_tin_title form__input-title tin-input-title"></span>
-                        <input class="form__input form__input_type_tin" id="tin-input" type="number" placeholder="Укажите ИНН" required>
+                        <input class="form__input form__input_type_tin" id="tin-input" type="text" pattern="\d{14}" placeholder="Укажите ИНН" required>
                         <span class="form__input_type_tin_subtitle form__input-error tin-input-error"></span>
                     </div>
                 </div>
@@ -284,7 +284,7 @@
             <div class="delivery popup__container">
                 <p class="popup__title">Способ доставки</p>
                 <button class="button popup__close" type = "button"></button>
-                <button class="button popup__delivery" type = "button">В пункт выдачи</button>
+                <button class="button popup__delivery popup__delivery_active" type = "button">В пункт выдачи</button>
                 <button class="button popup__delivery" type = "button">Курьером</button>
                 <p class="popup__subtitle">Мои адреса</p>
                 <button class="button popup__button_item"></button>

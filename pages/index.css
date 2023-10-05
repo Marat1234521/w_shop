@@ -11,6 +11,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__enumerator/button__enumerator.css);
 @import url(../blocks/button/__enumerator/_text/button__enumerator_text.css);
+@import url(../blocks/button/__enumerator/_active/button__enumerator_active.css);
 @import url(../blocks/button/__order/button__order.css);
 @import url(../blocks/button/__order/_popup/button__order_popup.css);
 @import url(../blocks/button/__popup/_delivery/button__popup_delivery.css);
@@ -40,6 +41,7 @@
 @import url(../blocks/basket/__forminput/_title/basket__forminput_title.css);
 @import url(../blocks/basket/__forminput/_dropdown/basket__forminput_dropdown.css);
 @import url(../blocks/basket/__checkbox/basket__checkbox.css);
+@import url(../blocks/basket/__checkbox/_active/basket__checkbox_active.css);
 @import url(../blocks/basket/__checkbox/_title/basket__checkbox_title.css);
 @import url(../blocks/basket/__checkbox/_result-card/basket__checkbox_result-card.css);
 @import url(../blocks/basket/__checkbox/_rules/basket__checkbox_rules.css);
@@ -75,6 +77,7 @@
 @import url(../blocks/card/__info/_buttons/card__info_buttons.css);
 @import url(../blocks/card/__like/card__like.css);
 @import url(../blocks/card/__like/_active/card__like_active.css);
+@import url(../blocks/card/__like/_newactive/card__like_newactive.css);
 @import url(../blocks/card/__basket/card__basket.css);
 
 @import url(../blocks/totalprice/totalprice.css);
@@ -125,6 +128,7 @@
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__input/_type/_name/form__input_type_name.css);
 @import url(../blocks/form/__input/_type/_surname/form__input_type_surname.css);
+@import url(../blocks/form/__input/_type/_surname/_title/form__input_type_surname_title.css);
 @import url(../blocks/form/__input/_type/_mail/form__input_type_mail.css);
 @import url(../blocks/form/__input/_type/_mail/_title/form__input_type_mail_title.css);
 @import url(../blocks/form/__input/_type/_mail/_subtitle/form__input_type_mail_subtitle.css);
@@ -146,5 +150,7 @@
 @import url(../blocks/popup/__subtitle/popup__subtitle.css);
 @import url(../blocks/popup/__title/_item/popup__title_item.css);
 @import url(../blocks/popup/__button/_item/popup__button_item.css);
+@import url(../blocks/popup/__button/_item/_active/popup__button_item_active.css);
 @import url(../blocks/popup/__delivery/popup__delivery.css);
 @import url(../blocks/popup/_item/popup_item.css);
+@import url(../blocks/popup/__delivery/_active/popup__delivery_active.css);
